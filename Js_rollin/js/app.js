@@ -18,9 +18,6 @@ console.log (suma + numero3)
 
 
 
-
-
-
 // let edad= 24;
 
 // if (edad >= 18) {
@@ -48,17 +45,6 @@ console.log (suma + numero3)
 
 // let drinkCoffee = 0
 
-// while (drinkCoffee < 10) {
-//   drinkCoffee = drinkCoffee + 1
-  
-//   if (drinkCoffee === 8) { break }
-//   if (drinkCoffee === 5) { continue }
-
-//   console.log('Café')
-// }
-
-// let pregunta = confirm ("Quieres ir a tomar un cafe?") 
-// while ( pregunta ==) {document.write ("Si quiere")}
 
 // let numeroa= 10
 
@@ -89,4 +75,13 @@ if (edad >= 18) {
   }
 } else {
   console.log("Edad inválida. Por favor, proporciona una edad válida.");
+}
+
+let tieneAnteojos = prompt ("Tienes anteojos? (responde 'si' o 'no')").toLowerCase();
+
+switch (tieneAnteojos) {
+  case true: console.log ("Bueno vos fijate que tan supersticioso sos");
+  break;
+ case false: colsole.log ("No compres, te van a tirar las patas por la noche");
+  break;
 }
